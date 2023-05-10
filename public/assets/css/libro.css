@@ -1,0 +1,129 @@
+  
+  a {
+    color: #5D6975;
+    text-decoration: underline;
+  }
+  
+  
+  
+  body {
+    width: 21.5cm;
+    height: 32.5cm;
+    color: #001028;
+    background: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 7.3px;
+    font-family: Arial;
+
+   
+  }
+  
+  #img_marca_agua {
+    z-index:-1;
+    background-image:  url("img/marca_agua_tja.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+    opacity: 2.8;
+  
+  }
+  
+  
+  
+              .saltoDePagina{
+                  display:block;
+                  page-break-before:always;
+              }
+  
+  
+  header {
+    padding: 10px 0;
+    margin-bottom: 4px;
+  }
+  
+  #logo {
+    text-align: left;
+    width: 100px;
+  }
+  
+  
+  #fecha {
+    font-family: sans-serif;
+      font-weight: normal;
+      font-size: 2.00em!important;
+        text-align : justify;
+        text-align : right; 
+    }
+  
+
+  
+  
+  #titulo1{
+    word-wrap: break-word!important;
+      text-align: center!important;
+  font-family: sans-serif;
+  margin: 0 0 8px 0;
+    font-size: 2.90em!important;
+  }
+
+  #titulo2{
+    white-space: nowrap;
+      text-align-last:center;
+      text-align:'justify';
+  font-family: sans-serif;
+    font-size: 2.00em!important;
+  }
+
+  #titulo3{
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: underline;
+  font-family: sans-serif;
+    font-size: 2.70em!important;
+  }
+
+  #texto1{
+    text-align: left;
+    white-space: nowrap;
+  font-family: sans-serif;
+    font-size: 1.80em!important;
+  }
+
+  #h1{
+    text-align: center;
+  }
+  hr{
+    page-break-after: always;
+    padding: 0;
+}
+
+table{
+  width: 100%; 
+  font-family: sans-serif;
+  font-size: 1.40em;
+    border: 1px solid black!important;
+    text-align: center;    
+    border-collapse: collapse!important;
+    word-wrap: break-word!important;
+}
+
+table tr:nth-child(2n-1) td {
+background: #E5DEDD;
+}
+td{
+  border-style:inset;
+  text-align: left; 
+  padding: 1px;
+}
+
+
+  th, td {   
+    word-wrap: break-word!important;
+    font-family: sans-serif;
+    font-size: 1.30em!important;
+    padding: 5px;
+    border: 1px solid #000!important;
+  }
+
