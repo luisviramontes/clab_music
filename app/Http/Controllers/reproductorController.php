@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use DB;
-use Mp3Info\Mp3Info;
+use mp3Info\mp3Info;
 
 use App\reproductorModel;
 

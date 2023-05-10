@@ -1,5 +1,5 @@
 <?php
-namespace Mp3Info;
+namespace mp3Info;
 
 use Exception;
 use RuntimeException;
