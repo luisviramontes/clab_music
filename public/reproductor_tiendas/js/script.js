@@ -3,8 +3,6 @@ musicImg = wrapper.querySelector(".img-area img"),
 musicName = wrapper.querySelector(".song-details .name"),
 musicArtist = wrapper.querySelector(".song-details .artist"),
 playPauseBtn = wrapper.querySelector(".play-pause"),
-prevBtn = wrapper.querySelector("#prev"),
-nextBtn = wrapper.querySelector("#next"),
 mainAudio = wrapper.querySelector("#main-audio"),
 progressArea = wrapper.querySelector(".progress-area"),
 progressBar = progressArea.querySelector(".progress-bar"),
@@ -106,14 +104,7 @@ playPauseBtn.addEventListener("click", ()=>{
   isMusicPlay ? pauseMusic() : playMusic();
   playingSong();
 });
-//prev music button event
-prevBtn.addEventListener("click", ()=>{
-  prevMusic();
-});
-//next music button event
-nextBtn.addEventListener("click", ()=>{
-  nextMusic();
-});
+
 // update progress bar width according to music current time
 mainAudio.addEventListener("timeupdate", (e)=>{
   const currentTime = e.target.currentTime; //getting playing song currentTime

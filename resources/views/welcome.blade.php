@@ -43,11 +43,11 @@
     </div>
     <div class="controls">
       <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
-      <i id="prev" class="material-icons">skip_previous</i>
+ 
       <div class="play-pause">
         <i class="material-icons play">play_arrow</i>
       </div>
-      <i id="next" class="material-icons">skip_next</i>
+   
       <i id="more-music" class="material-icons">queue_music</i>
     </div>
     <div class="music-list">
