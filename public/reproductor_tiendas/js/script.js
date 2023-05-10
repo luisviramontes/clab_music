@@ -54,7 +54,7 @@ function load_list() {
     var jsonResponse = JSON.parse(Http.responseText);
     console.log(jsonResponse.canciones);
     jsonResponse.canciones.forEach(element => {
-      const obj = { name: element.titulo, artist: element.artista, img: "logo_clab.png", src: "http://3.138.189.35/files/" + element.archivo };
+      const obj = { name: element.titulo, artist: element.artista, img: "logo.jpg", src: "http://3.138.189.35/files/" + element.archivo };
       //console.log(obj);
       musica.push(obj)
 
