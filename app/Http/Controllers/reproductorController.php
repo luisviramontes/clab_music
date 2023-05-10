@@ -26,6 +26,8 @@ class reproductorController extends Controller
     public function index()
     {
    
+        print phpinfo();
+        return 1;
       
         if(Auth::user()){
             if(Auth::user()->funcion == "MUSICA")
