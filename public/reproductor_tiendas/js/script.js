@@ -176,7 +176,7 @@ mainAudio.addEventListener("ended", ()=>{
   let getText = repeatBtn.innerText; //getting this tag innerText
   switch(getText){
     case "repeat":
-      nextMusic(); //calling nextMusic function
+      nextMusic(); //calling nextMusic function  
       break;
     case "repeat_one":
       mainAudio.currentTime = 0; //setting audio current time to 0
