@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Player | Clab</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../reproductor_tiendas/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
@@ -64,8 +64,8 @@
       </ul>
     </div>
   </div>
-  <script src="../js/music-list.js"></script>
-  <script src="../js/script.js"></script>
+  <script src="../reproductor_tiendas/js/music-list.js"></script>
+  <script src="../reproductor_tiendas/js/script.js"></script>
 </body>
 
 </html>  

@@ -48,7 +48,7 @@ function loadMusic(indexNumb){
 function load_list() {
   var musica = [];
   const Http = new XMLHttpRequest();
-  const url = 'https://www.ramirezguzman.mx/obtener_lista_reproduccion';
+  const url = 'http://3.138.189.35//obtener_lista_reproduccion';
   Http.open("GET", url);
   Http.send();
 
@@ -56,7 +56,7 @@ function load_list() {
     var jsonResponse = JSON.parse(Http.responseText);
     console.log(jsonResponse.canciones);
     jsonResponse.canciones.forEach(element => {
-      const obj = { name: element.titulo, artist: element.artista, img: "logo.jpg", src: "https://www.ramirezguzman.mx/files/" + element.archivo };
+      const obj = { name: element.titulo, artist: element.artista, img: "logo.jpg", src: "http://3.138.189.35//obtener_lista_reproduccion/files/" + element.archivo };
       //console.log(obj);
       musica.push(obj)
 
