@@ -34,6 +34,7 @@ document.body.addEventListener("mousemove", function () {
   //console.log('detecto ');
   playMusic();
 })
+
 function loadMusic(indexNumb){
   document.getElementById('div_loadig').style.display = 'block';
   console.log('entro');

@@ -69,7 +69,7 @@
 
                                             <div class="form-group">
                                                 <h4 class="header-title mb-4">Subir archivo</h4>
-                                                <input type="file" accept=".mp3" id="archivo" required name="archivo" />
+                                                <input type="file" accept=".mp3" id="archivo"  name="archivo" />
                                             </div>
 
 
