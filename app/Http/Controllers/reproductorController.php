@@ -284,14 +284,14 @@ class reproductorController extends Controller
              $file->move('files/', $file->getClientoriginalName());                  
              rename("files/" . $file->getClientoriginalName(), "files/" . $nombreArchivo);
  
-             $cancion->archivo=$nombreArchivo;
-             $cancion->estado="ACTIVO";
-             $cancion->captura=Auth::user()->name;
-             $cancion->update();
-             return Redirect::to('reproductor_admin')->with('errors','Canción actualizada correctamente');
+             $cancion->archivo=$nombreArchivo;           
          }
+         $cancion->estado="ACTIVO";
+         $cancion->captura=Auth::user()->name;
+         $cancion->update();
+         return Redirect::to('reproductor_admin')->with('errors','Canción actualizada correctamente');
 
-         return Redirect::to('reproductor_admin/'.$cancion->id)->with('errors','Error al actualizar el botón');
+         //return Redirect::to('reproductor_admin/'.$cancion->id)->with('errors','Error al actualizar el botón');
 
         }else{
             return view('auth.login_clab');
